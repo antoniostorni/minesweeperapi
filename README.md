@@ -16,3 +16,11 @@ grids/grid_id/squares/x/y/explore
 GET: Explores square x,y from grid_id and then returns the squares for grid
 
 Django admin site is enabled in /admin/
+
+# Installing and running a dev server
+
+pip install -r requirements.txt
+
+python manage.py migrate
+
+python manage.py runserver
